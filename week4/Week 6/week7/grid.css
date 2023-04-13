@@ -1,0 +1,32 @@
+.grid{
+    width:100%;
+    border:1px solid burlywood;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+.box1{
+    background-color: aquamarine;
+}
+
+.box2{
+    background-color: black;
+}
+
+.box3{
+    background-color: forestgreen;
+}
+
+.box4{
+    background-color: red;
+}
+
+.box5{
+    background-color:yellowgreen;
+}
+
+.box6{
+    background-color: grey;
+}

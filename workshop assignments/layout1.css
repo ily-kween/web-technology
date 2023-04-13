@@ -1,0 +1,43 @@
+img{
+    width:85%;
+    height: 400px;
+    float: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.son{
+    float:right;
+    width: 50%;
+    color: white;
+    font-size: 35px;
+}
+.h{
+    float:inherit;
+    width: 50%;
+    
+
+}
+
+.parent{ 
+    width:100%;
+    background-color: rgb(38, 170, 131);
+    color: white;
+
+}
+.son{
+    width:50%;
+    background-color: rgb(38, 170, 131);
+    font-size: 20px;
+    float: right;
+    text-align: left;
+
+    
+}
+.daughter{
+    width:100%;
+    background-color: rgb(38, 170, 131);
+    float: center;
+    
+}

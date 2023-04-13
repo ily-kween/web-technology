@@ -1,0 +1,37 @@
+.flex{
+    width: 100%;
+    background-color: antiquewhite;
+    border: 3px solid blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.box{
+    width: 300px;
+    height:300px;
+}
+.box1{
+    background-color: aquamarine;
+}
+
+.box2{
+    background-color: black;
+}
+
+.box3{
+    background-color: forestgreen;
+}
+
+.box4{
+    background-color: red;
+}
+
+.box5{
+    background-color:yellowgreen;
+}
+
+.box6{
+    background-color: grey;
+}
