@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        console.log("Hello World!");
+        
+        var a = 1;
+        a = 6; //reassignment
+        console.log(a);
+
+        let b = 10;
+        b = 20;
+        console.log(b)
+
+        const c = "Rema"
+        console.log(typeof(c))
+
+        let d = 10;
+        {
+            let d = 13;
+            console.log(d)
+        }
+        console.log(d)
+
+        
+       
+        
+
+        const items ={
+            name:"Rema",
+            age:17,
+            address:"Boudha"
+        }
+        console.log(items.name);
+
+        //let name = prompt("Enter your name:")
+        //let age = prompt("Enter your age:")
+
+        // alert("Hlo My name is"+" "+name+" "+"and age is:"+" "+age)
+
+        let dict ={
+            plethora:"various,many",
+            rapture:"A feeling of extreme happiness",
+            dawdle:"Take long time to do",
+            randomly:"without plan",
+            delighted:"very pleased"
+        }
+        console.log(dict);
+        
+        let num = prompt("Enter a number:")
+        if(num>0){
+            console.log("Valid number")
+        }
+        else{
+            console.log("invalid number")
+        }
+
+        let age = prompt("Enter your age:")
+        if (age>0 && age<=10){
+            console.log("infant")
+        }
+        else if (age>11 && age<=18){
+            console.log("teeneger")
+        }
+        else if (age>19 && age<=50){
+            console.log("adult")
+        }
+        else if (age>50){
+        console.log("old")
+        }
+        else if (age == 0){
+            console.log("invalid age")
+        }
+        let sum = 0;
+        let j;
+        for(j=1; j<=100; j++){
+            sum = sum+j;
+        }
+        console.log(sum)
+
+
+        function sum_num(g,h){
+            let sum = g+h;
+            return sum;
+        }
+        console.log(sum_num(5,8));
+        
+        //average of two numbers
+        //function avg(s,t){
+            //let s = parseInt(prompt("Enter first number:"))
+            //let t = parseInt(prompt("Enter second number:"))
+            //let sum = s+t
+            //let avg = sum/2
+            //console.log("average of two numbers is:",avg)
+        //}
+        //console.log(avg(s,t))
+
+        //area of circle
+        function area(){
+        let r = prompt("Enter radius:")
+        let pi = Math.PI;
+        let circle = pi*r*r
+        return area;
+        }
+        console.log(area());
+        
+
+    </script>  
+</body>
+</html>
